@@ -212,6 +212,7 @@ button {
 
 /* header section start */
 
+
 .header_section {
     width: 100%;
     float: left;
@@ -559,13 +560,15 @@ h5{
     width: 100%;
     float: left;
     background-color: #ffffff;
-    height: auto;
+    height: 100%;
     padding: 20px 20px;
     box-shadow: 0px 0px 6px 6px #f4f3f2;
 }
 .gallery_box:hover {
     box-shadow: 0px 0px 0px 0px;
 }
+
+
 
 .types_text {
     width: 100%;
@@ -723,8 +726,9 @@ h5{
     width: 100%;
     float: left;
     background-color: #ffffff;
-    height: auto;
-    padding: 0px 20px 30px 20px;
+    /* height: auto; */
+    height: 100%;
+    padding: 20px;
     box-shadow: 0px 0px 10px 10px #ebebea;
 }
 
